@@ -24,21 +24,14 @@ class TimeCard extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => TimeTable()));
             },
           ),
-          //actions: <Widget>[
-            //IconButton(
-              //icon: Icon(choices[0].icon),
-              //onPressed: () {
-                //Navigator.push(context,
-                //    MaterialPageRoute(builder: (context) => TimeCard()));
-              //},
-            //)
-          //],
         ),
 
         body: Center(
           child: Stack(
             alignment: Alignment.center,
             children: <Widget>[
+
+              //First employee card
               Positioned(
                 top: MediaQuery.of(context).size.height * 0.05,
                 width: MediaQuery.of(context).size.width * 3.8/4,
@@ -76,7 +69,6 @@ class TimeCard extends StatelessWidget {
                                 ],
                               ),
                               Spacer(),
-                              //SizedBox(width: MediaQuery.of(context).size.width * 0.2),
                               Column(
                                 children: <Widget>[
                                   Text(
@@ -97,7 +89,7 @@ class TimeCard extends StatelessWidget {
                                 ],
                               ),
                               Spacer(),
-                              //SizedBox(width: MediaQuery.of(context).size.width * 0.2),
+
                               Column(
                                 children: <Widget>[
                                   Text(
@@ -126,6 +118,8 @@ class TimeCard extends StatelessWidget {
                   ),
                 ),
               ),
+
+              //Second Employee card
               Positioned(
                 top: MediaQuery.of(context).size.height * 0.20,
                 width: MediaQuery.of(context).size.width * 3.8/4,
@@ -163,7 +157,7 @@ class TimeCard extends StatelessWidget {
                                 ],
                               ),
                               Spacer(),
-                              //SizedBox(width: MediaQuery.of(context).size.width * 0.2),
+
                               Column(
                                 children: <Widget>[
                                   Text(
@@ -184,7 +178,7 @@ class TimeCard extends StatelessWidget {
                                 ],
                               ),
                               Spacer(),
-                              //SizedBox(width: MediaQuery.of(context).size.width * 0.2),
+
                               Column(
                                 children: <Widget>[
                                   Text(

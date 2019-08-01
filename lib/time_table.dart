@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:mobile_assignment_one/time_card.dart';
 
 class TimeTable extends StatefulWidget {
-  final List<Map<String, String>> listOfColumns = [
-    {'id': '1', 'project': 'Google', 'hours': '8 hours'},
-    {'id': '2', 'project': 'Facebook', 'hours': '5 hours'}
-  ];
 
   @override
   _TimeTableState createState() => new _TimeTableState();
@@ -35,6 +31,7 @@ class _TimeTableState extends State<TimeTable> {
             )
           ],
         ),
+
         body: SingleChildScrollView(
           child: Center(
             child: DataTable(

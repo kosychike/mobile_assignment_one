@@ -26,7 +26,8 @@ class CrudPageState extends State<CrudPage> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
 
-              //Continue button to login page container
+              //View button container
+
               Container(
                 width: MediaQuery.of(context).size.width * 3.5/4,
                 height: 50.0,
@@ -39,12 +40,14 @@ class CrudPageState extends State<CrudPage> {
                     style: TextStyle(
                       fontSize: 14.0,
                       fontWeight: FontWeight.w700,
-                      //color: Colors.white,
                     ),
                   ),
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.04),
+
+              //Update button container
+
               Container(
                 width: MediaQuery.of(context).size.width * 3.5/4,
                 height: 50.0,
@@ -57,12 +60,14 @@ class CrudPageState extends State<CrudPage> {
                     style: TextStyle(
                       fontSize: 14.0,
                       fontWeight: FontWeight.w700,
-                      //color: Colors.white,
+
                     ),
                   ),
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.04),
+
+              //Delete button container
               Container(
                 width: MediaQuery.of(context).size.width * 3.5/4,
                 height: 50.0,
@@ -75,7 +80,6 @@ class CrudPageState extends State<CrudPage> {
                     style: TextStyle(
                       fontSize: 14.0,
                       fontWeight: FontWeight.w700,
-                      //color: Colors.white,
                     ),
                   ),
                 ),

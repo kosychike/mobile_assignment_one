@@ -24,6 +24,8 @@ class _LoginPageState extends State<LoginPage> {
             child: new ListView(
               children: <Widget>[
                 SizedBox(height: MediaQuery.of(context).size.height * 0.25),
+
+                //Username TextFormField
                 new TextFormField(
                   autovalidate: true,
                   controller: username,
@@ -44,16 +46,13 @@ class _LoginPageState extends State<LoginPage> {
 
                 SizedBox(height: MediaQuery.of(context).size.height * 0.06),
 
+                //Password TextFormField
                 new TextFormField(
                   autovalidate: true,
                   controller: password,
                   obscureText: true,
                   decoration: const InputDecoration(
                     labelText: 'Password',
-                    //icon: const Padding(
-                    //padding: const EdgeInsets.only(top: 15.0),
-                    //icon: const Icon(Icons.visibility_off),
-                    //),
                     labelStyle: TextStyle(
                       fontFamily: 'Lato',
                       fontSize: 13.0,
@@ -69,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 SizedBox(height: MediaQuery.of(context).size.height * 0.04),
 
-                //FORGOT PASSWORD CONTAINER
+                //Forgot password container
                 new Container(
                     alignment: Alignment(1.0, 0.0),
                     child: InkWell(
@@ -90,16 +89,12 @@ class _LoginPageState extends State<LoginPage> {
                 SizedBox(height: MediaQuery.of(context).size.height * 0.15),
 
                 //LOGIN BUTTON CONTAINER
-
                 InkWell(
                   child: new Container(
                     width: MediaQuery.of(context).size.width * 3.5/4,
                     height: 50.0,
-                    //height: MediaQuery.of(context).size.height * 0.30/4,
+
                     child: RaisedButton(
-                      //shape: RoundedRectangleBorder(
-                        //borderRadius: BorderRadius.circular(5.0),
-                      //),
                       elevation: 1.0,
                       color: Colors.black,
                       onPressed: () {

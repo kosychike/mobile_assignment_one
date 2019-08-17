@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/chykeofficial/Desktop/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/chykeofficial/Desktop/mobile_assignment_one/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/chykeofficial/Downloads/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/chykeofficial/Downloads/mobile_assignment_one/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/chykeofficial/Desktop/mobile_assignment_one/build/app/intermediates/res/merged/release/drawable_launch_background.xml.flat",
-        "source": "/Users/chykeofficial/Desktop/mobile_assignment_one/android/app/src/main/res/drawable/launch_background.xml"
+        "merged": "/Users/chykeofficial/Downloads/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/chykeofficial/Downloads/mobile_assignment_one/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/chykeofficial/Desktop/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/chykeofficial/Desktop/mobile_assignment_one/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/chykeofficial/Downloads/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/chykeofficial/Downloads/mobile_assignment_one/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/chykeofficial/Desktop/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/chykeofficial/Desktop/mobile_assignment_one/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/chykeofficial/Downloads/mobile_assignment_one/build/app/intermediates/res/merged/release/drawable_launch_background.xml.flat",
+        "source": "/Users/chykeofficial/Downloads/mobile_assignment_one/android/app/src/main/res/drawable/launch_background.xml"
     },
     {
-        "merged": "/Users/chykeofficial/Desktop/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/chykeofficial/Desktop/mobile_assignment_one/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/chykeofficial/Downloads/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/chykeofficial/Downloads/mobile_assignment_one/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/chykeofficial/Desktop/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/chykeofficial/Desktop/mobile_assignment_one/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/chykeofficial/Downloads/mobile_assignment_one/build/app/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/chykeofficial/Downloads/mobile_assignment_one/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

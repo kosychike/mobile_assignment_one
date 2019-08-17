@@ -13,6 +13,7 @@ class TimeCard extends StatelessWidget {
             child: Text(
               'Time Card',
               style: TextStyle(
+                fontFamily: 'Lato',
                 fontSize: 13.0,
               ),
             ),
@@ -101,7 +102,7 @@ class TimeCard extends StatelessWidget {
                                   ),
                                   SizedBox(height: MediaQuery.of(context).size.height * 0.02),
                                   Text(
-                                    '8 hours',
+                                    '8',
                                     style: TextStyle(
                                       fontWeight: FontWeight.normal,
                                       fontSize: 12.0,
@@ -109,7 +110,50 @@ class TimeCard extends StatelessWidget {
                                   ),
                                 ],
                               ),
-
+                              Spacer(),
+                              Column(
+                                children: <Widget>[
+                                  Text(
+                                    'Breaks',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 13.0,
+                                      fontFamily: 'Lato',
+                                    ),
+                                  ),
+                                  SizedBox(height: MediaQuery.of(context).size.height * 0.02),
+                                  Text(
+                                    '2',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 12.0,
+                                      fontFamily: 'Lato',
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              Spacer(),
+                              Column(
+                                children: <Widget>[
+                                  Text(
+                                    'Work Hours',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 13.0,
+                                      fontFamily: 'Lato',
+                                    ),
+                                  ),
+                                  SizedBox(height: MediaQuery.of(context).size.height * 0.02),
+                                  Text(
+                                    '6',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 12.0,
+                                      fontFamily: 'Lato',
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ],
                           ),
                         ],
@@ -182,18 +226,64 @@ class TimeCard extends StatelessWidget {
                               Column(
                                 children: <Widget>[
                                   Text(
-                                    'Hours',
+                                    'Total Hours',
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       fontSize: 13.0,
+                                      fontFamily: 'Lato',
                                     ),
                                   ),
                                   SizedBox(height: MediaQuery.of(context).size.height * 0.02),
                                   Text(
-                                    '5 hours',
+                                    '5',
                                     style: TextStyle(
                                       fontWeight: FontWeight.normal,
                                       fontSize: 12.0,
+                                      fontFamily: 'Lato',
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              Spacer(),
+                              Column(
+                                children: <Widget>[
+                                  Text(
+                                    'Breaks',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 13.0,
+                                      fontFamily: 'Lato',
+                                    ),
+                                  ),
+                                  SizedBox(height: MediaQuery.of(context).size.height * 0.02),
+                                  Text(
+                                    '1',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 12.0,
+                                      fontFamily: 'Lato',
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              Spacer(),
+                              Column(
+                                children: <Widget>[
+                                  Text(
+                                    'Work Hours',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 13.0,
+                                      fontFamily: 'Lato',
+                                    ),
+                                  ),
+                                  SizedBox(height: MediaQuery.of(context).size.height * 0.02),
+                                  Text(
+                                    '4',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.normal,
+                                      fontSize: 12.0,
+                                      fontFamily: 'Lato',
                                     ),
                                   ),
                                 ],
